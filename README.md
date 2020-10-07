@@ -5,8 +5,9 @@ Apart from running the `jupyter/minimal-notebook` notebook image it will make su
  `requirements.txt` are installed.
  
  ## How to use
- Make sure the required dependencies are in `requirements.txt`.
- Then open a terminal and run:
+ 1. Copy the files in the repo to your own project directory.
+ 2. Make sure the required dependencies are in `requirements.txt`.
+ 3. Open a terminal and run:
  ```bash
 docker-compose up 
 ```
