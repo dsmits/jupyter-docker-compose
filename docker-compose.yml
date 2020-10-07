@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  jupyter:
+    image: jupyter/minimal-notebook
+    volumes:
+      - .:/home/jovyan/work
+      - ./configure_environment.sh:/usr/local/bin/before-notebook.d/configure_environment.sh
+    ports:
+      - 8888:8888
