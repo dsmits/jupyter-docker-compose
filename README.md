@@ -14,3 +14,8 @@ docker-compose up
 
 After the requirements are installed the jupyter server will be started. When ready it will provide you the url to
  the notebook webinterface.
+
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
